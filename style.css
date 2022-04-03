@@ -1,0 +1,21 @@
+
+
+.container{
+    display: grid;
+    border: 2px;
+    width: 600px;
+    height: 600px;
+    
+
+}
+
+
+.cell{
+    display: inline-block;
+    padding: 0;
+    border: 1px solid black;
+    min-width: 1px;
+    min-height: 1px;
+    outline:1px solid #000;
+
+}
