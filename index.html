@@ -7,14 +7,27 @@
     <title>paint v0.0000001</title>
 </head>
 <body>
-    
-    <div class="page">
+    <div class="flex-container">
+        <div class="title"><h1>painto</h1></div>
+        <div class="content">
         <div class="container" ></div>
-        <h1>painto</h1>
-        <input type="number" id="amount" name="amount"> enter size</div>
-        <button class ="reset">RESET</button>
+      <div class="buttons"></div>
+        <button onclick="changeColor('grey')" >grey</button>
+        <button onclick="changeColor('blue')">blue</button>
+        <button onclick="changeColor('yellow')">yellow</button>
+        <button onclick="changeColor('random')">Random</button>
+
+        <button onclick="resetGrid()">RESET</button>
     </div>
-        
+    <div>
+        <input 
+            type="number"
+            value= "16"
+            onchange="changeAmount(this.value)"
+        />
+        <button>set size</button>
+    </div>
+            
     <script src="script.js"></script>
 </body>
 
